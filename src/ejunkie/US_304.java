@@ -28,7 +28,7 @@ public class US_304 extends BaseDriver {
         creditCard.click();
 
         WebElement email = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("[placeholder='Email']")));
-        email.sendKeys("rojow22711@xcmexico.com");
+        email.sendKeys("rojow227d11@xcmexico.com");
 
         WebElement emailConfirm = wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.cssSelector("[placeholder='Confirm Email']"))));
         emailConfirm.sendKeys("rojow22711@xcmexico.com");
